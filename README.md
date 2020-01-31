@@ -4,7 +4,7 @@
 
 ## Description
 
-This project allows 
+This project allows users to search for dogs and cats at local animal shelters. 
 
 ## Links:
 
@@ -23,7 +23,7 @@ Github - https://github.com/weidai07/AnimalShelterApi.Solution
 
 ### Specification
 
-This program is designed to 
+This program is designed to allow users to search for cats and dogs at local animal shelters as well as the quantity of each animal at the shelter. The user can search specifically for either cats or dogs. 
 
 ## Known Bugs
 

@@ -9,7 +9,7 @@ using Microsoft.OpenApi.Models;
 
 namespace AnimalShelterApi
 {
-  public class Startup
+    public class Startup
     {
         public Startup(IConfiguration configuration)
         {
@@ -45,8 +45,9 @@ namespace AnimalShelterApi
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "AnimalShelterApi V1");
+                c.RoutePrefix = string.Empty;
             }); 
-            
+
             app.UseMvc();
         }
     }
