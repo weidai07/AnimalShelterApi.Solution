@@ -36,6 +36,7 @@ This program is designed to allow users to search for cats and dogs at local ani
 * Microsoft(MS) Test
 * MySQL
 * LINQ
+* Swagger 
 
 ### License:
 
