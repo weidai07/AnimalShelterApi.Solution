@@ -18,8 +18,9 @@ Github - https://github.com/weidai07/AnimalShelterApi.Solution
 
   - $ dotnet restore - when you are ready to restore the dependencies of the project
   - $ dotnet build - when you are ready to build the project
-  - $ dotnet run - to run the project 
-  - $ dotnet test - for testing the project
+  - $ dotnet ef migrations add Initial - to build the table in MySQL
+  - $ dotnet ef database update - to update the table in the database 
+  - $ dotnet watch run - to run the project and play the game 
 
 ### Specification
 
