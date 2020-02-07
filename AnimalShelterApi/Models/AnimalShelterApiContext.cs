@@ -13,7 +13,7 @@ namespace AnimalShelterApi.Models
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
-      builder.Entity<Animal>()
+      builder.Entity<Animal>() 
           .HasData(
               new Animal { AnimalId = 121, Cats = "Bengal", Dogs = "Corgi", Quantity = 3 },
               new Animal { AnimalId = 131, Cats = "Ragdoll", Dogs = "Lab", Quantity = 1 },
